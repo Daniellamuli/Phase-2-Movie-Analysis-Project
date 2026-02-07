@@ -211,3 +211,6 @@ For a deeper, interactive exploration of the data, view the Tableau dashboards b
 
 - **Competitive Positioning & Seasonality**  
   👉 [View Tableau Dashboard](https://public.tableau.com/...)
+
+# Phase-2-Movie-Analysis-Project
+Phase 2 Data Science Project: Movie Industry Analysis for New Studio
