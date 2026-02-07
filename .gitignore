@@ -2,3 +2,8 @@ __pycache__/
 .ipynb_checkpoints
 #data/zippedData/im.db.zip
 .Python
+data/zippedData/
+data/cleanedData/
+*.db
+*.csv
+*.zip
