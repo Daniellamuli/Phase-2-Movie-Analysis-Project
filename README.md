@@ -96,3 +96,93 @@ All preprocessing and analysis work was conducted in Jupyter notebooks. You can 
 - **Competitive Positioning Analysis:** [Competitive Positioning Analysis.ipynb](notebooks/Competitive%20Positioning%20Analysis.ipynb)
 
 
+## Genre & Content Strategy (Statistical Analysis)
+
+### Objective
+
+Leverage the integrated dataset to identify genres and content types that deliver the **highest financial returns**, **strongest ROI**, and **broad international appeal**.
+
+### Key Analyses & Findings
+
+1.  **Correlation Analysis**
+    
+    *   Explored relationships between **budget, popularity, ratings, ROI, and worldwide gross**.
+        
+    *   **Findings:**
+        
+        *   **Budget → Revenue:** Strong correlation (0.79)
+            
+        *   **Popularity → Revenue:** Moderate correlation (0.58)
+            
+        *   **Critical Ratings → Revenue:** Weak correlation (0.21)
+            
+2.  **Revenue Analysis by Genre**
+    
+    *   **Top Performers:** Animation, Adventure (median $150M–$200M per film)
+        
+    *   **Mid-Tier:** Sci-Fi, Action, Fantasy
+        
+    *   **Niche/Lower Revenue:** Horror, Documentary
+        
+    *   **Statistical Validation:** ANOVA confirms genre significantly impacts revenue (p < 0.05)
+        
+3.  **Market Gap Analysis ("A24 Strategy")**
+    
+    *   Scatter plot of **ROI vs production volume** identifies underserved, high-return niches: Mystery, Horror, Sci-Fi
+        
+    *   Animation represents **high-risk, high-reward** blockbusters
+        
+4.  **International Appeal**
+    
+    *   Calculated average foreign gross share by genre:
+        
+        *   **Universal Appeal (55–60% international):** Animation, Adventure, Action
+            
+        *   **Domestic-Centric:** Comedy, Documentary
+            
+
+**Recommendation:**  
+Adopt a **dual-track content strategy**:
+
+*   **Core Production:** Mid-to-low budget Mystery & Horror → maximize ROI with limited capital
+    
+*   **Flagship Production:** Animation & Adventure → global revenue, brand-building
+
+![Median Worldwide Gross by Genre](figures/genre_revenue.png)  
+![Market Gap ROI vs Competition](figures/market_gap.png)  
+![International Revenue Share by Genre](figures/international_appeal.png)
+
+
+## Financial Optimization Analysis
+
+### Objective
+
+## 
+
+Determine **budget allocation, ROI efficiency, and profitability trends** across the portfolio to inform production and investment decisions.
+
+### Key Analyses & Findings
+
+## 
+
+1.  **ROI Distribution & Outliers**
+    
+    *   Low-budget niche films can deliver stronger ROI than large-scale blockbusters
+        
+2.  **Budget vs Revenue Modeling**
+    
+    *   Diminishing returns observed beyond certain budget thresholds
+        
+    *   Provides **optimal budget ranges per genre**
+        
+3.  **Production Scale Recommendations**
+    
+    *   Low-to-mid budget: Mystery, Horror, Sci-Fi → maximize ROI efficiently
+        
+    *   High-budget flagship: Animation, Adventure → maximize global visibility
+        
+    *   Domestic-focused: Comedy, Documentary → keep budgets lean
+
+![ROI Distribution](figures/roi_distribution.png)  
+![Budget vs Revenue](figures/budget_revenue.png)
+
