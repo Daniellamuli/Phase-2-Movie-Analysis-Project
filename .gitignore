@@ -3,4 +3,4 @@ __pycache__/
 .Python
 # Large / generated database files
 *.db
-data/zippedData/
+#data/zippedData/
