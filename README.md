@@ -125,10 +125,25 @@ This project applies data-driven analysis to identify how **YE Studios** can sca
     
 *   **Horror and Mystery** emerge as high-ROI, lower-competition genres compared to saturated categories like Drama and Comedy.
     
-*   **Takeaway:** Prioritize visual-first genres for global releases and keep budgets lean for domestically focused genres (e.g., Comedy) to protect ROI.
+    *   **Takeaway:** Prioritize visual-first genres for global releases and keep budgets lean for domestically focused genres (e.g., Comedy) to protect ROI.
     
 
 * * *
+
+### 3\. Market Dynamics & Audience Engagement
+
+## 
+
+This analysis examines the **“quality vs. visibility” paradox**, assessing how critical acclaim compares to audience engagement and marketing visibility in driving box office performance.
+
+*   **Popularity Drives Revenue:** Audience engagement metrics and popularity scores show a significantly stronger correlation with revenue than critical ratings.
+    
+*   **The Quality Myth:** High ratings (IMDB, Metacritic) contribute to long-term studio credibility but do not reliably translate into financial success without strong visibility and marketing support.
+    
+*   **Marketing-Led Production:** Films with early and sustained audience buzz perform better during opening weekends, which strongly influences total box office returns.
+    
+
+   **Takeaway:** YE Studios should integrate marketing strategy into the production pipeline from day one. Visibility, audience discussion, and cultural presence are stronger predictors of commercial success than critical acclaim alone.
 
 ### Overall Insight
 
