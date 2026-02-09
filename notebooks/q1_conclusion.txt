@@ -1,0 +1,30 @@
+QUESTION 1: OPTIMAL BUDGET RANGE FOR ROI
+======================================================================
+
+RESULTS:
+              Mean_ROI  Median_ROI  Std_Dev  Film_Count
+budget_range                                           
+<$5M            842.85       -6.36  5652.50        1503
+$5M-10M         236.34       51.43   578.31         702
+$10M-25M        218.88       62.97   522.30        1351
+$25M-50M        143.24       74.42   241.21        1072
+$50M-100M       160.83      102.95   238.08         712
+>$100M          221.22      184.73   185.14         358
+
+Optimal Budget Range: <$5M
+Average ROI: 842.85%
+Number of Films: 1503
+Standard Deviation: 5652.50%
+
+Statistical Test (t-test):
+t-statistic = 7.394
+p-value = 0.0000
+Significant? Yes (p < 0.05)
+
+CONCLUSION:
+The <$5M budget range produces the highest average ROI of 842.85%.
+This finding is statistically significant.
+
+RECOMMENDATION:
+YE Studios should target the <$5M budget range for maximum profitability.
+Expected return: ~842.9% ROI
