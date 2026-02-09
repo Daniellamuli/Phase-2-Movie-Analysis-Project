@@ -93,11 +93,20 @@ This integrated dataset allows for a **multidimensional analysis** of how genre,
 
 All preprocessing and analysis work was conducted in Jupyter notebooks. You can access them directly below:
 
-- **Data Cleaning:** [data_cleaning.ipynb](notebooks/data_cleaning.ipynb)
-- **Market Dynamics Analysis:** [Market Dynamics Analysis.ipynb](notebooks/Market%20Dynamics%20Analysis.ipynb)
-- **Financial Optimization Analysis:** [Financial Optimization Analysis.ipynb](notebooks/Financial%20Optimization%20Analysis.ipynb)
-- **Genre & Content Strategy Analysis:** [Genre & Content Strategy Analysis.ipynb](notebooks/Genre%20&%20Content%20Strategy%20Analysis.ipynb)
-- **Competitive Positioning Analysis:** [Competitive Positioning Analysis.ipynb](notebooks/Competitive%20Positioning%20Analysis.ipynb)
+- **Data Cleaning:**  
+  [data_cleaning.ipynb](notebooks/data_cleaning/data_cleaning.ipynb)
+
+- **Market Dynamics Analysis:**  
+  [Market Dynamics Analysis.ipynb](notebooks/analysis/Market%20Dynamics%20Analysis.ipynb)
+
+- **Financial Optimization Analysis:**  
+  [Financial Optimization Analysis.ipynb](notebooks/analysis/Financial%20Optimization%20Analysis.ipynb)
+
+- **Genre & Content Strategy Analysis:**  
+  [Genre & Content Strategy Analysis.ipynb](notebooks/analysis/Genre%20%26%20Content%20Strategy%20Analysis.ipynb)
+
+- **Competitive Positioning Analysis:**  
+  [Competitive Positioning Analysis.ipynb](notebooks/analysis/Competitive%20Positioning%20Analysis.ipynb)
 
 
 ## Key Findings: Strategic Insights for YE Studios
