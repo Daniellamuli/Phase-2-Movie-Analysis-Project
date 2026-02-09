@@ -4,8 +4,6 @@
 
 <h1 align="center">YE Studios: Data-Driven Film Analysis Project</h1>
 
-# YE Studios: Data-Driven Film Analysis Project
-
 ## Team Members
 - Daniella Muli
 - Naomi Opiyo
