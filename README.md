@@ -145,21 +145,70 @@ This analysis examines the **“quality vs. visibility” paradox**, assessing h
 
    **Takeaway:** YE Studios should integrate marketing strategy into the production pipeline from day one. Visibility, audience discussion, and cultural presence are stronger predictors of commercial success than critical acclaim alone.
 
-### Overall Insight
 
-Sustainable success for YE Studios depends on aligning **budget size, genre choice, and distribution strategy**—not simply increasing production spend. Data-driven decisions significantly reduce financial risk while improving the probability of commercial success.
+###   
 
-* * *
+### 4\. Competitive Positioning & Seasonality
 
-### 📊 Visual Insights (from Analysis)
+### 
 
-The final notebook includes:
+This analysis evaluates **global market performance and release timing** to identify where and when YE Studios should strategically deploy its films.
 
-*   ROI by budget tier
+*   **The Foreign Market Advantage:** Statistical testing confirms that **international box office revenue significantly outperforms domestic revenue across all major genres** (_p_ < 0.001).
     
-*   Genre performance vs. competition density
+*   **Seasonality Matters:** ANOVA results (_F_ = 8.06) demonstrate that box office performance is **highly seasonal**, with clear revenue peaks during specific release windows.
     
-*   Domestic vs. international revenue split by genre
+*   **Strategic Timing & Allocation:**
     
+    *   Allocate **60–80% of marketing budgets** to international markets for globally scalable genres such as **Action and Sci-Fi**.
+        
+    *   Reserve **peak release windows (May–July, November–December)** for high-budget, globally targeted films.
+        
+    *   Schedule **lower-budget, high-ROI genres** (e.g., Horror and Mystery) during off-peak months to reduce competition and maximize returns.
+        
 
-_(Selected visuals are included below for quick reference.)_
+**Takeaway:** YE Studios can gain a competitive edge by aligning **release timing, genre selection, and marketing spend** with global demand patterns rather than relying on traditional domestic-first strategies.
+
+
+---
+
+### **Overall Insight**
+
+The analysis demonstrates that sustainable success for **YE Studios** is driven by strategic alignment rather than scale alone. High returns are achieved by pairing **disciplined budget management** with **data-backed genre selection**, **marketing-led production**, and **globally informed release strategies**.
+
+Micro- and mid-budget films provide the strongest risk-adjusted returns when combined with genres that scale internationally, while audience engagement and visibility outperform critical acclaim as predictors of commercial success. Additionally, international markets and seasonal release timing play a decisive role in maximizing revenue potential.
+
+**Core Takeaway:** YE Studios’ competitive advantage lies in operating as a *data-first studio*—deploying capital efficiently, prioritizing global audiences, integrating marketing early, and releasing content strategically based on market dynamics rather than industry intuition.
+
+---
+
+### 📊 **Visual Insights (from Analysis)**
+
+Selected visuals below highlight the core findings of our analysis. Full interactive versions are available via Tableau dashboards.
+
+![ROI by Budget Tier](figures/roi_by_budget.png)
+*High ROI concentration in micro- and mid-budget films.*
+
+![Domestic vs International Revenue by Genre](figures/domestic_vs_foreign.png)
+*International markets consistently outperform domestic revenue across major genres.*
+
+![Popularity vs Revenue](figures/popularity_vs_revenue.png)
+*Audience engagement shows a stronger relationship with revenue than critical ratings.*
+
+---
+
+### 📈 **Interactive Dashboards (Tableau)**
+
+For a deeper, interactive exploration of the data, view the Tableau dashboards below:
+
+- **Financial Strategy & Risk Management**  
+  👉 [View Tableau Dashboard](https://public.tableau.com/...)
+
+- **Genre & Content Strategy**  
+  👉 [View Tableau Dashboard](https://public.tableau.com/views/MovieAnalysisProject/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+- **Market Dynamics & Audience Engagement**  
+  👉 [View Tableau Dashboard](https://public.tableau.com/...)
+
+- **Competitive Positioning & Seasonality**  
+  👉 [View Tableau Dashboard](https://public.tableau.com/...)
