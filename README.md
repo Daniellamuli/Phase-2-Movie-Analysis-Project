@@ -132,42 +132,32 @@ This project applies data-driven analysis to identify how **YE Studios** can sca
 
 ### 3\. Market Dynamics & Audience Engagement
 
-## 
+### 
 
-This analysis examines the **“quality vs. visibility” paradox**, assessing how critical acclaim compares to audience engagement and marketing visibility in driving box office performance.
+Popularity and marketing buzz often outweigh critical acclaim in predicting commercial success.
 
-*   **Popularity Drives Revenue:** Audience engagement metrics and popularity scores show a significantly stronger correlation with revenue than critical ratings.
+*   **Popularity Drives Revenue:** Audience engagement scores show a significantly stronger correlation with revenue than critical ratings.
     
-*   **The Quality Myth:** High ratings (IMDB, Metacritic) contribute to long-term studio credibility but do not reliably translate into financial success without strong visibility and marketing support.
+*   **The Quality Myth:** High IMDB/Metacritic ratings build studio prestige but do not guarantee profit without aggressive visibility.
     
-*   **Marketing-Led Production:** Films with early and sustained audience buzz perform better during opening weekends, which strongly influences total box office returns.
+*   **Marketing-Led Production:** Films with early audience "buzz" perform better on opening weekends, which dictates the total box office trajectory.
     
-
-   **Takeaway:** YE Studios should integrate marketing strategy into the production pipeline from day one. Visibility, audience discussion, and cultural presence are stronger predictors of commercial success than critical acclaim alone.
-
-
-###   
+   *   **Takeaway:** YE Studios should integrate marketing into the production pipeline from Day 1. Visibility and cultural presence are stronger predictors of success than critical acclaim alone.
+    
 
 ### 4\. Competitive Positioning & Seasonality
 
 ### 
 
-This analysis evaluates **global market performance and release timing** to identify where and when YE Studios should strategically deploy its films.
+Strategic timing and global allocation are essential for outperforming established competitors.
 
-*   **The Foreign Market Advantage:** Statistical testing confirms that **international box office revenue significantly outperforms domestic revenue across all major genres** (_p_ < 0.001).
+*   **The Foreign Advantage:** Statistical testing confirms that international revenue significantly outperforms domestic revenue across all major genres ($p < 0.001$).
     
-*   **Seasonality Matters:** ANOVA results (_F_ = 8.06) demonstrate that box office performance is **highly seasonal**, with clear revenue peaks during specific release windows.
+*   **Seasonality Trends:** ANOVA results ($F = 8.06$) prove that box office performance is highly seasonal, with massive revenue peaks in specific windows.
     
-*   **Strategic Timing & Allocation:**
+*   **Strategic Allocation:** Reserve peak windows (**May–July** and **Nov–Dec**) for flagship films; use "quiet" months for high-ROI genres like Horror to avoid competition.
     
-    *   Allocate **60–80% of marketing budgets** to international markets for globally scalable genres such as **Action and Sci-Fi**.
-        
-    *   Reserve **peak release windows (May–July, November–December)** for high-budget, globally targeted films.
-        
-    *   Schedule **lower-budget, high-ROI genres** (e.g., Horror and Mystery) during off-peak months to reduce competition and maximize returns.
-        
-
-**Takeaway:** YE Studios can gain a competitive edge by aligning **release timing, genre selection, and marketing spend** with global demand patterns rather than relying on traditional domestic-first strategies.
+   *   **Takeaway:** Allocate **60–80% of marketing budgets** to international markets and align release dates with global demand patterns rather than domestic-first strategies.
 
 
 ---
@@ -208,7 +198,7 @@ For a deeper, interactive exploration of the data, view the Tableau dashboards b
   👉 [View Tableau Dashboard](https://public.tableau.com/views/MovieAnalysisProject/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 - **Market Dynamics & Audience Engagement**  
-  👉 [View Tableau Dashboard](https://public.tableau.com/...)
+  👉 [View Tableau Dashboard](https://public.tableau.com/views/MARKETINGDYNAMICS/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 - **Competitive Positioning & Seasonality**  
   👉 [View Tableau Dashboard](https://public.tableau.com/...)
