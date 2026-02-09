@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="figures/ye-studios-logo.jfif" alt="YE Studios Logo" width="200">
+</p>
+
+<h1 align="center">YE Studios: Data-Driven Film Analysis Project</h1>
+
 # YE Studios: Data-Driven Film Analysis Project
 
 ## Team Members
@@ -96,93 +102,51 @@ All preprocessing and analysis work was conducted in Jupyter notebooks. You can 
 - **Competitive Positioning Analysis:** [Competitive Positioning Analysis.ipynb](notebooks/Competitive%20Positioning%20Analysis.ipynb)
 
 
-## Genre & Content Strategy (Statistical Analysis)
+## Key Findings: Strategic Insights for YE Studios
 
-### Objective
+This project applies data-driven analysis to identify how **YE Studios** can scale sustainably by optimizing budget strategy, genre selection, and distribution approach.
 
-Leverage the integrated dataset to identify genres and content types that deliver the **highest financial returns**, **strongest ROI**, and **broad international appeal**.
+* * *
 
-### Key Analyses & Findings
+### 1\. Financial Strategy & Risk Management
 
-1.  **Correlation Analysis**
+*   **Micro-budget films (< $5M)** deliver exceptionally high returns, averaging **~842% ROI**, making them ideal for low-risk experimentation and early capital growth.
     
-    *   Explored relationships between **budget, popularity, ratings, ROI, and worldwide gross**.
-        
-    *   **Findings:**
-        
-        *   **Budget → Revenue:** Strong correlation (0.79)
-            
-        *   **Popularity → Revenue:** Moderate correlation (0.58)
-            
-        *   **Critical Ratings → Revenue:** Weak correlation (0.21)
-            
-2.  **Revenue Analysis by Genre**
+*   **Mid-budget films ($15M–$50M)** remain viable, achieving a stable **~164% ROI**, and are well-suited for brand-building and studio credibility.
     
-    *   **Top Performers:** Animation, Adventure (median $150M–$200M per film)
-        
-    *   **Mid-Tier:** Sci-Fi, Action, Fantasy
-        
-    *   **Niche/Lower Revenue:** Horror, Documentary
-        
-    *   **Statistical Validation:** ANOVA confirms genre significantly impacts revenue (p < 0.05)
-        
-3.  **Market Gap Analysis ("A24 Strategy")**
+*   **Major studios outperform indies by ~58% in revenue**, largely due to distribution strength.
     
-    *   Scatter plot of **ROI vs production volume** identifies underserved, high-return niches: Mystery, Horror, Sci-Fi
+    *   **Takeaway:** YE Studios should pursue _major-style distribution partnerships_ even for smaller productions.
         
-    *   Animation represents **high-risk, high-reward** blockbusters
-        
-4.  **International Appeal**
+
+* * *
+
+### 2\. Genre & Content Strategy
+
+*   **Animation, Adventure, and Action** show strong global scalability, earning **55–60% of revenue from international markets**.
     
-    *   Calculated average foreign gross share by genre:
-        
-        *   **Universal Appeal (55–60% international):** Animation, Adventure, Action
-            
-        *   **Domestic-Centric:** Comedy, Documentary
-            
-
-**Recommendation:**  
-Adopt a **dual-track content strategy**:
-
-*   **Core Production:** Mid-to-low budget Mystery & Horror → maximize ROI with limited capital
+*   **Horror and Mystery** emerge as high-ROI, lower-competition genres compared to saturated categories like Drama and Comedy.
     
-*   **Flagship Production:** Animation & Adventure → global revenue, brand-building
-
-![Median Worldwide Gross by Genre](figures/genre_revenue.png)  
-![Market Gap ROI vs Competition](figures/market_gap.png)  
-![International Revenue Share by Genre](figures/international_appeal.png)
-
-
-## Financial Optimization Analysis
-
-### Objective
-
-## 
-
-Determine **budget allocation, ROI efficiency, and profitability trends** across the portfolio to inform production and investment decisions.
-
-### Key Analyses & Findings
-
-## 
-
-1.  **ROI Distribution & Outliers**
+*   **Takeaway:** Prioritize visual-first genres for global releases and keep budgets lean for domestically focused genres (e.g., Comedy) to protect ROI.
     
-    *   Low-budget niche films can deliver stronger ROI than large-scale blockbusters
-        
-2.  **Budget vs Revenue Modeling**
-    
-    *   Diminishing returns observed beyond certain budget thresholds
-        
-    *   Provides **optimal budget ranges per genre**
-        
-3.  **Production Scale Recommendations**
-    
-    *   Low-to-mid budget: Mystery, Horror, Sci-Fi → maximize ROI efficiently
-        
-    *   High-budget flagship: Animation, Adventure → maximize global visibility
-        
-    *   Domestic-focused: Comedy, Documentary → keep budgets lean
 
-![ROI Distribution](figures/roi_distribution.png)  
-![Budget vs Revenue](figures/budget_revenue.png)
+* * *
 
+### Overall Insight
+
+Sustainable success for YE Studios depends on aligning **budget size, genre choice, and distribution strategy**—not simply increasing production spend. Data-driven decisions significantly reduce financial risk while improving the probability of commercial success.
+
+* * *
+
+### 📊 Visual Insights (from Analysis)
+
+The final notebook includes:
+
+*   ROI by budget tier
+    
+*   Genre performance vs. competition density
+    
+*   Domestic vs. international revenue split by genre
+    
+
+_(Selected visuals are included below for quick reference.)_
