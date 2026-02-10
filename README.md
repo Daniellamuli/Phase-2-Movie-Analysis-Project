@@ -93,11 +93,28 @@ This integrated dataset allows for a **multidimensional analysis** of how genre,
 
 All preprocessing and analysis work was conducted in Jupyter notebooks. You can access them directly below:
 
+<<<<<<< HEAD
 - **Data Cleaning:** [data_cleaning.ipynb](notebooks/data_cleaning.ipynb)
 - **Market Dynamics Analysis:** [Market Dynamics Analysis.ipynb](notebooks/Market%20Dynamics%20Analysis.ipynb)
 - **Financial Optimization Analysis:** [Financial Optimization Analysis.ipynb](notebooks/Financial%20Optimization%20Analysis.ipynb)
 - **Genre & Content Strategy Analysis:** [Genre & Content Strategy Analysis.ipynb](notebooks/Genre%20&%20Content%20Strategy%20Analysis.ipynb)
 - **Competitive Positioning Analysis:** [Competitive Positioning Analysis.ipynb](notebooks/Competitive%20Positioning%20Analysis.ipynb)
+=======
+- **Data Cleaning:**  
+  [data_cleaning.ipynb](notebooks/data_cleaning/data_cleaning.ipynb)
+
+- **Market Dynamics Analysis:**  
+  [Market Dynamics Analysis.ipynb](notebooks/analysis/Market%20Dynamics%20Analysis.ipynb)
+
+- **Financial Optimization Analysis:**  
+  [Financial Optimization Analysis.ipynb](notebooks/analysis/Financial%20Optimization%20Analysis.ipynb)
+
+- **Genre & Content Strategy Analysis:**  
+  [Genre & Content Strategy Analysis.ipynb](notebooks/analysis/Genre%20%26%20Content%20Strategy%20Analysis.ipynb)
+
+- **Competitive Positioning Analysis:**  
+  [Competitive Positioning Analysis.ipynb](notebooks/analysis/Competitive%20Positioning%20Analysis.ipynb)
+>>>>>>> db1f90529bfd817d44c049fdb22bb1d31bccc88e
 
 
 ## Key Findings: Strategic Insights for YE Studios
@@ -192,7 +209,11 @@ Selected visuals below highlight the core findings of our analysis. Full interac
 For a deeper, interactive exploration of the data, view the Tableau dashboards below:
 
 - **Financial Strategy & Risk Management**  
+<<<<<<< HEAD
   👉 [View Tableau Dashboard](https://public.tableau.com/...)
+=======
+  👉 [View Tableau Dashboard](https://public.tableau.com/app/profile/naomi.opiyo/viz/YE_Studios_Financial_Analysis_Dashboard/Story1)
+>>>>>>> db1f90529bfd817d44c049fdb22bb1d31bccc88e
 
 - **Genre & Content Strategy**  
   👉 [View Tableau Dashboard](https://public.tableau.com/views/MovieAnalysisProject/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
@@ -201,4 +222,8 @@ For a deeper, interactive exploration of the data, view the Tableau dashboards b
   👉 [View Tableau Dashboard](https://public.tableau.com/views/MARKETINGDYNAMICS/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 - **Competitive Positioning & Seasonality**  
+<<<<<<< HEAD
   👉 [View Tableau Dashboard](https://public.tableau.com/...)
+=======
+  👉 [View Tableau Dashboard](https://public.tableau.com/views/CompetitivePositioningAnalysis/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+>>>>>>> db1f90529bfd817d44c049fdb22bb1d31bccc88e
