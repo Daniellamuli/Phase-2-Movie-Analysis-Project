@@ -1,4 +1,11 @@
 __pycache__/
 .ipynb_checkpoints
+<<<<<<< HEAD
 #data/zippedData/im.db.zip
 .Python
+=======
+.Python
+# Large / generated database files
+*.db
+#data/zippedData/
+>>>>>>> origin/master
