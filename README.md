@@ -186,9 +186,11 @@ Micro- and mid-budget films provide the strongest risk-adjusted returns when com
 Selected visuals below highlight the core findings of our analysis. Full interactive versions are available via Tableau dashboards.
 
 ![ROI by Budget Tier](figures/roi_by_budget.png)
+
 *High ROI concentration in micro- and mid-budget films.*
 
 ![Domestic vs International Revenue by Genre](figures/domestic_vs_foreign.png)
+
 *International markets consistently outperform domestic revenue across major genres.*
 
 ![Popularity vs Revenue](figures/popularity_vs_revenue.png)
