@@ -1,6 +1,5 @@
 __pycache__/
 .ipynb_checkpoints
-<<<<<<< HEAD
 #data/zippedData/im.db.zip
 .Python
 data/zippedData/
@@ -8,9 +7,7 @@ data/cleanedData/
 *.db
 *.csv
 *.zip
-=======
 .Python
 # Large / generated database files
 *.db
 #data/zippedData/
->>>>>>> db1f90529bfd817d44c049fdb22bb1d31bccc88e
