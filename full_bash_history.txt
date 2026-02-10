@@ -1,0 +1,538 @@
+   35  mkdir Flatiron
+   36  cd Flatiron
+   37  git branch -M main
+   38  ls
+   39  pwd
+   40  git clone https://github.com/learn-co-curriculum/dsc-data-science-env-config.git
+   41  pwd
+   42  ls
+   43  cd dsc-data-science-env-config/
+   44  cd 
+   45  cd..
+   46  cd ,,
+   47  cd ..
+   48  cd dsc-data-science-env-config/ 
+   49  pwd
+   50  ls
+   51  cd dsc-data-science-env-config/
+   52  git branch -M main
+   53  conda --version
+   54  cd ..
+   55  conda --version
+   56  cd Flatiron
+   57  conda --version
+   58  ls
+   59  cd dsc-data-science-env-config/
+   60  conda env create -f win_environment.yml
+   61  conda env list
+   62  conda update conda
+   63  conda init bash
+   64  conda activate learn -env
+   65  conda activate learn-env
+   66  cd Flatiron
+   67  ls
+   68  cd dsc-data-science-env-config/
+   69  conda activate learn-env
+   70  ls
+   71  cd .
+   72  cd ..
+   73  ls
+   74  cd dsc-data-science-env-config/
+   75  conda info --envs
+   76  touch ~/.bash_profile
+   77  echo "conda activate learn-env" >> ~/.bash_profile
+   78  source ~/.bash_profile
+   79  cd Desktop
+   80  cd Moringa
+   81  ls
+   82  cd Aviation_Risks_Project_1/
+   83  git status
+   84  ls
+   85  cd notebooks
+   86  ls
+   87  cd .
+   88  cd ..
+   89  git add aviation_analysis.ipynb
+   90  git add aviation_analysis.ipynb 
+   91  cd notebooks
+   92  ls
+   93  git add aviation_analysis.ipynb
+   94  git commit -m "Fixed industry_pct calculation"
+   95  git push origin main 
+   96  git pull origin main
+   97  push origin main
+   98  git push origin main
+   99  cd 
+  100  cd Desktop
+  101  cd Moringa
+  102  cd Aviation_Risks_Project_1
+  103  mkdir presentation
+  104  mv ~/Desktop/Moringa/presentation
+  105  mv ~/Desktop/aviation_presentation.pdf presentation/ 
+  106  mv ~/Desktop/Moringa/presentation presentation/
+  107  cd ..
+  108  ls
+  109  mv ~/Desktop/Moringa/presentation.pdf presentation/ 
+  110  ~mv presentation.pdf presentation/
+  111  mv presentation.pdf presentation/ 
+  112  ls
+  113  cd Aviation_Risks_Project_1/
+  114  ls
+  115  mv ../presentation.pdf presentation/ 
+  116  mv ../presentation.pdf presentation/ 
+  117  git add presentation/
+  118  git commit -m "add presentation PDF for aviation safety project"
+  119  git push
+  120  pwd
+  121  ls
+  122  cd notebooks
+  123  ls
+  124  cd .,
+  125  cd ..
+  126  cd notebooks
+  127  ls
+  128  jupyter notebook
+  129  ls notebooks
+  130  cd ..
+  131  ls notebooks
+  132  cat >requirements.txt << 'EOF'
+  133  pandas==1.5.3
+  134  matplotlib==1.24.3
+  135  seaborn==0.12.2
+  136  jupyter==1.0.0
+  137  EOF
+  138  cd notebooks
+  139  sed -i 's/Seondary Users/Secondary Users/g' aviation_analysis.ipynb
+  140  sed -i 's/Insuarance/Insurance/g' aviation_analysis.ipynb
+  141  sed -i 's/poor cnditions/poor conditions/g' aviation_analysis.ipynb 
+  142  cd ..
+  143  cat > requirements.txt << 'EOF'
+  144  pandas==1.5.3
+  145  numpy==1.24.3
+  146  matplotlib==3.7.1
+  147  seaborn==0.12.2
+  148  jupyter==1.0.0
+  149  EOF
+  150  ls
+  151  cd notebooks
+  152  code aviation_analysis.ipynb
+  153  cd ..
+  154  git remote -v
+  155  git push -u origin main
+  156  git status
+  157  git add .
+  158  git commit -m "Project corrections"
+  159  # 1. Amend the commit message
+  160  git commit --amend -m "Project corrections completed
+  161  - Added requirements.txt for reproducibility
+  162  - Fixed typos: 'Secondary Users', 'Insurance', 'poor conditions'
+  163  - Added methodology justification for data cleaning decisions
+  164  - Added sensitivity analysis with multiple accident thresholds
+  165  - All notebook cells run successfully"
+  166  # 2. Remove those temporary Excel files (they shouldn't be committed)
+  167  git rm data/~\$Top5_safest.xlsx  # Note: escape the $ with backslash
+  168  git rm data/Top5_safest.xlsx
+  169  # 3. Add .gitignore to prevent future issues
+  170  cat > .gitignore << 'EOF'
+  171  # Data files
+  172  data/
+  173  # Python
+  174  __pycache__/
+  175  *.pyc
+  176  # Jupyter
+  177  .ipynb_checkpoints/
+  178  # Environment
+  179  .env
+  180  venv/
+  181  *.egg-info/
+  182  # Temporary Office files
+  183  ~$*
+  184  EOF
+  185  git add .gitignore
+  186  # 4. Make a new commit for cleanup
+  187  git commit -m "Cleanup: Remove temporary files and add .gitignore"
+  188  # 5. Push everything
+  189  git push origin main 
+  190  git rm data/Top5_safest.xlsx
+  191  git rm 'data/~$Top5_safest.xlsx' 
+  192  cat > .gitignore << 'EOF'
+  193  # Data files
+  194  data/
+  195  # Python
+  196  __pycache__/
+  197  *.pyc
+  198  # Jupyter
+  199  .ipynb_checkpoints/
+  200  # Environment
+  201  .env
+  202  venv/
+  203  *.egg-info/
+  204  # Temporary Office files
+  205  ~$*
+  206  EOF
+  207  git add .gitignore
+  208  git commit -m "Cleanup: Remove temporary Excel lock file and add .gitignore"
+  209  git push origin main 
+  210  git pull origin main
+  211  git checkout --ours .gitignore
+  212  git add .gitignore 
+  213  git commit -m "Merge remote changes"
+  214  git push origin main
+  215  git log --oneline -5
+  216  # Pull changes first
+  217  git pull origin main
+  218  # If conflicts, keep your version:
+  219  git checkout --ours notebooks/aviation_analysis.ipynb
+  220  git add notebooks/aviation_analysis.ipynb
+  221  git commit -m "Merge and keep new dashboard"
+  222  git push origin main 
+  223  # 1. First, move those Tableau files out of the way
+  224  mv Aviation_dashboard.twb /tmp/
+  225  mv ~Aviation_dashboard__15616.twbr /tmp/
+  226  # 2. Now pull remote changes
+  227  git pull origin main
+  228  # 3. Add ONLY your notebook
+  229  git add notebooks/aviation_analysis.ipynb
+  230  # 4. Commit
+  231  git commit -m "Added enhanced dashboard visualization and conclusion to notebook"
+  232  # 5. Push
+  233  git push origin main 
+  234  # 1. Add your notebook changes
+  235  git add notebooks/aviation_analysis.ipynb
+  236  # 2. Commit
+  237  git commit -m "Added enhanced dashboard visualization and conclusion to notebook"
+  238  # 3. Push
+  239  git push origin main 
+  240  # 1. See what's different in your notebook
+  241  git diff notebooks/aviation_analysis.ipynb
+  242  # 2. If it shows changes, add them properly
+  243  git add -p notebooks/aviation_analysis.ipynb
+  244  # 3. Or add everything in the notebook
+  245  git add notebooks/aviation_analysis.ipynb
+  246  # 4. Check status again
+  247  git status 
+  248  git log --oneline -5 
+  249  # 1. Add the notebook
+  250  git add notebooks/aviation_analysis.ipynb
+  251  # 2. Commit with good message
+  252  git commit -m "Added enhanced safety dashboard visualization with:
+  253  - Comprehensive 4-panel dashboard
+  254  - Methodology summary section  
+  255  - Procurement recommendations
+  256  - Tableau dashboard link integration"
+  257  # 3. Push
+  258  git push origin main 
+  259  git status  # Should show clean
+  260  git log --oneline -2  # Should show your commit 
+  261  # Add images if you want
+  262  git add images/
+  263  # Update README
+  264  echo "
+  265  ## Interactive Dashboard
+  266  Access the interactive Tableau dashboard: [Link Here](https://public.tableau.com/...)
+  267  " >> README.md
+  268  git add README.md
+  269  git commit -m "Final updates: README with dashboard link"
+  270  git push origin main 
+  271  user@DESKTOP-OMLD1DN MINGW64 ~/Desktop/Moringa/Aviation_Risks_Project_1 (main)
+  272  $ git status  # Should show clean
+  273  git log --oneline -2  # Should show your commit
+  274  On branch main
+  275  Your branch is up to date with 'origin/main'.
+  276  Untracked files:
+  277    (use "git add <file>..." to include in what will be committed)
+  278          images/
+  279  nothing added to commit but untracked files present (use "git add" to track)
+  280  4eb7f4f (HEAD -> main, origin/main, origin/HEAD) Added enhanced safety dashboard
+  281   visualization with: - Comprehensive 4-panel dashboard - Methodology summary sec
+  282  tion - Procurement recommendations - Tableau dashboard link integration
+  283  7402a1e Add Tableau dashboard files
+  284  (learn-env)
+  285  user@DESKTOP-OMLD1DN MINGW64 ~/Desktop/Moringa/Aviation_Risks_Project_1 (main)
+  286  $ user@DESKTOP-OMLD1DN MINGW64 ~/Desktop/Moringa/Aviation_Risks_Project_1 (main)
+  287  $ git status  # Should show clean
+  288  git log --oneline -2  # Should show your commit
+  289  # 1. Pull first (gets others' changes)
+  290  git pull origin main
+  291  # 2. Add your changes
+  292  git add notebooks/aviation_analysis.ipynb
+  293  # 3. Commit
+  294  git commit -m "Your changes"
+  295  # 4. Push
+  296  git push origin main 
+  297  # This should show the filename
+  298  echo "Files in directory:"
+  299  ls *.twb* 2>/dev/null || echo "No .twb files found"
+  300  echo "Files tracked by Git:"
+  301  git ls-files | grep -i twb || echo "No .twb files in Git" 
+  302  cd Desktop
+  303  cd MORINGA
+  304  mkdir Phase_2_Project
+  305  cd Phase_2_Project
+  306  git clone https://github.com/Daniellamuli/Phase-2-Movie-Analysis-Project.git 
+  307  cd Phase-2-Movie-Analysis-Project
+  308  git branch
+  309  git checkout - naomi-analysis
+  310  git checkout -b naomi-analysis
+  311  git branch
+  312  ls -la
+  313  cd notebooks/
+  314  ls
+  315  cd ..
+  316  git branch
+  317  git checkout main
+  318  git checkout main
+  319  git checkout master
+  320  git pull origin master
+  321  git checkout naomi-analysis
+  322  git merge master
+  323  code .
+  324  git status
+  325  git add Naomi.ipynb
+  326  ls *.ipynb
+  327  ls -la
+  328  git checkout master
+  329  ls -la | grep -i naomi
+  330  git checkout naomi-analysis 
+  331  git status
+  332  git add "notebooks/Naomi .ipynb"
+  333  git commit -m "Completed Introduction, Business Understanding, Data Understanding and also cleaned The Numbers dataset from The Numbers Database"
+  334  git push origin naomi-analysis
+  335  # See what Git username/email you're using
+  336  git config --global user.name
+  337  git config --global user.email
+  338  [200~# Change to SSH URL
+  339  git remote set-url origin git@github.com:Daniellamuli/Phase-2-Movie-Analysis-Project.git
+  340  # Try push
+  341  git push origin naomi-analysis
+  342  git remote -v 
+  343  git remote set-url origin https://github.com/Daniellamuli/Phase-2-Movie-Analysis-Project.git 
+  344  git remote -v
+  345  git push origin naomi-analysis
+  346  git add "notebooks/Naomi .ipynb"
+  347  git add cleaned_data/your_data.csv 
+  348  $ git add "notebooks/Naomi .ipynb"
+  349  git add cleanedData/tn_movie_budget_cleaned.csv
+  350  git add "notebooks/Naomi .ipynb"
+  351  git add cleaned_data/tn_movie_budgets_cleaned.csv 
+  352  # Add from the correct folder
+  353  git add data/cleanedData/tn_movie_budgets_cleaned.csv 
+  354  git commit -m "Updated analysis by saving the cleaned data"
+  355  git push origin naomi-analysis
+  356  git pull origin main --rebase
+  357  git add .
+  358  git commit -m "Save current work/unstaged changes"
+  359  git pull origin main
+  360  git pull origin master
+  361  git status
+  362  ls -la
+  363  ls -la data/cleanedData
+  364  git checkout --theirs notebooks/final_notebook.ipynb
+  365  git add notebooks/final_notebook.ipynb
+  366  git commit -m "Merge: Added cleaned datasets from master"
+  367  ls -la data/
+  368  ls -la data/raw/           
+  369  ls -la data/cleanedData/   
+  370  ls -la data/zippedData/  
+  371   git status
+  372  code notebooks/"Naomi .ipynb"
+  373  git branch
+  374  git checkout naomi-analysis
+  375  git add .
+  376  git commmit -m [200~"Movie financial analysis complete
+
+Analysis includes:
+1. ROI optimization by budget range
+2. Indie vs Major studio performance comparison  
+3. Financial tier strategy for ratings and revenue
+4. Executive summary with strategic recommendations
+
+Files included:
+- Naomi.ipynb (main analysis notebook)
+- q1/q2/q3_conclusion.txt (detailed findings)
+- executive_summary.md (strategic recommendations)
+  377  git commit -m "Completed movie financial analysis with ROI optimization, studio comparison, and financial tier analysis
+
+Key findings:
+- Optimal budget range identified: {optimal_range}
+- Indie vs Major studio trade-off analysis
+- Financial tier strategy recommendations
+- Executive summary with actionable insights" 
+  378  git push origin naomi-analysis
+  379   find . -type f -size +10M 
+  380  git branch
+  381  git checkout naomi-analysis
+  382  git add .
+  383  git commit -m "Completed movie financial analysis with ROI optimization, studio comparison, and financial tier analysis
+
+Key findings:
+- Optimal budget range identified: {optimal_range}
+- Indie vs Major studio trade-off analysis
+- Financial tier strategy recommendations
+- Executive summary with actionable insights" 
+  384  git push origin naomi-analysis
+  385  # 1. First, check what's happening
+  386  git status
+  387  ls -lh data/zippedData/
+  388  # 2. You have BOTH problems:
+  389  # - im.db.zip (64MB) - removed but still in history
+  390  # - im.db (161MB) - NEW unzipped file added!
+  391  # 3. Remove BOTH large files from git
+  392  git rm --cached data/zippedData/im.db
+  393  git rm --cached data/zippedData/im.db.zip
+  394  # 4. Add comprehensive .gitignore
+  395  cat >> .gitignore << 'EOF'
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Archive files
+*.zip
+*.gz
+*.tar
+*.rar
+
+# Large data files
+data/zippedData/
+EOF
+
+  396  # 5. Verify what will be pushed
+  397  git add .gitignore
+  398  git status
+  399  # 6. Commit the removal
+  400  git commit -m "EMERGENCY FIX: Remove large .db and .zip files exceeding GitHub limits"
+  401  # 7. Force push (REQUIRED since you need to rewrite history)
+  402  git push origin naomi-analysis --force 
+  403  git log --oneline -- data/zippedData/im.db 
+  404  # 1. Create backup branch
+  405  git checkout -b naomi-analysis-backup
+  406  # 2. Go back to BEFORE problem
+  407  git checkout e2ff17e  # Your last good commit
+  408  # 3. Create clean branch
+  409  git checkout -b naomi-analysis-clean
+  410  # 4. Manually apply your analysis work
+  411  cp -r notebooks/ notebooks-temp/
+  412  # Keep only your actual analysis files
+  413  # 5. Add with proper .gitignore
+  414  echo "data/zippedData/" >> .gitignore
+  415  git add notebooks/ .gitignore
+  416  git commit -m "Movie financial analysis - clean version"
+  417  # 6. Push clean version OVER old branch
+  418  git push origin naomi-analysis-clean:naomi-analysis --force 
+  419  # 1. Check what's in your backup branch
+  420  git checkout naomi-analysis-backup
+  421  ls notebooks/
+  422  # Your analysis IS HERE
+  423  # 2. Get it back to main naomi-analysis
+  424  git checkout naomi-analysis
+  425  git merge naomi-analysis-backup --no-commit
+  426  # This brings your work over
+  427  # 3. Remove the large files
+  428  git rm --cached data/zippedData/im.db data/zippedData/im.db.zip
+  429  # 4. Commit
+  430  git commit -m "Movie financial analysis without large files"
+  431  # 5. Push
+  432  git push origin naomi-analysis --force 
+  433  # 1. CHECK what's actually in your current naomi-analysis branch
+  434  ls -la notebooks/
+  435  # 2. If empty, COPY from backup
+  436  git checkout naomi-analysis-backup -- notebooks/
+  437  # 3. ADD them
+  438  git add notebooks/
+  439  # 4. COMMIT
+  440  git commit -m "FIX: Restore all analysis work to naomi-analysis branch"
+  441  # 5. PUSH
+  442  git push origin naomi-analysis --force 
+  443  git status
+  444  # 1. Where am I?
+  445  git branch
+  446  # 2. What branches exist?
+  447  git branch -a
+  448  # 3. What's in my current folder?
+  449  ls -la notebooks/
+  450  # 4. What commits do I have here?
+  451  git log --oneline -5
+  452  # 5. What's the status?
+  453  git status 
+  454  # Clean up and push
+  455  rm -rf notebooks-temp/
+  456  git config http.postBuffer 524288000
+  457  git push origin naomi-analysis 
+  458  git push origin naomi-analysis --force 
+  459  git checkout --orphan naomi-fresh
+  460  echo "*.db" > .gitignore
+  461  echo "data/" >> .gitignore
+  462  git add .gitignore notebooks/
+  463  git commit -m "Clean commit with analysis work only"
+  464  git branch -D naomi-analysis
+  465  git branch -m naomi-analysis  
+  466  git push origin naomi-analysis --force 
+  467  git branch -D naomi-analysis-backup
+  468  git branch -D naomi-analysis-clean 
+  469  git branch
+  470  git status
+  471  code .
+  472  code "Naomi .ipynb"
+  473  ls notebooks
+  474  code 'Naomi .ipynb'  
+  475  wc -l 'Naomi .ipynb'
+  476  wc -l 'Naomi .ipynb'  
+  477  cd notebooks
+  478  ls -la
+  479  code "Naomi .ipynb"
+  480  git log --online -n 10
+  481  git log --oneline -n 10
+  482   git reset --soft HEAD~1
+  483  git reset --soft HEAD~1 
+  484  git reset --soft 557bdcb^ 
+  485  git reset --soft origin/master
+  486  git status
+  487  git reset
+  488  git status
+  489  git add ../.gitignore ../data/cleanedData/tn_movie_budgets_cleaned.csv
+  490  git commit -m "Phase 1: Environment setup i.e. The Introduction for YE Studios, Business Understaning, Data Understanding and Data integration" 
+  491  git add "Naomi .ipynb"
+  492  git commit -m "Phase 2: Full Analysis - Intro, Business Understanding, and Data Cleaning" 
+  493  git add *.png *.txt 
+  494  git commit -m "Phase 3: Analysed the cleaned data as the Financial Analyst of the group and provided Visual Insights of my findings while ensuring to answer the business questions and provide insightful proper recommendations"
+  495  # Move from the root to a new folder
+  496  mkdir -p ../dashboards
+  497  mv ../Your_Workbook_Name.twb ../dashboards/
+  498  # Add and commit
+  499  git add ../dashboards/Your_Workbook_Name.twb
+  500  git commit -m "Final: Added Tableau workbook to dashboards folder" 
+  501  git add notebooks/"Naomi .ipynb"
+  502  ls
+  503  git add 'Naomi .ipynb'  
+  504   git stash 
+  505  git stash pop
+  506  git add "Naomi .ipynb"
+  507  git add ../YE_Studios_Financial_Analysis_Dashboard.twb 
+  508  git add tableau_movie_analysis.csv 
+  509  git commit -m "Final: Added my interactive link and a section on my otebook that showed how i set up my merged data for Tableau analysis and creation of an Interactive dashboard"
+  510  git pull origin main --rebase 
+  511  git pull origin master --rebase 
+  512  git checkout --ours .gitignore
+  513  git add .gitignore 
+  514  git checkout --ours ../.gitignore 
+  515  git add ../.gitignore 
+  516  git rebase --continue 
+  517  git push origin naomi-analysis --force 
+  518  code "Naomi .ipynb"
+  519  ls 
+  520  cd individual/
+  521  ls
+  522  code 'Naomi .ipynb'  
+  523  git pull origin naomi-analysis
+  524  ls -la data
+  525  ls -la data/
+  526  ls
+  527  cd ..
+  528  cd ..
+  529  ls
+  530  ls -la data/
+  531  git add data/analysisData/tableau_movie_analysis.csv 
+  532  git commit -m "Add Tableau analysis dataset"
+  533  git push origin naomi-analysis
+  534  history > full_bash_history.txt 

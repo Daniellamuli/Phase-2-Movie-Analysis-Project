@@ -1,0 +1,42 @@
+QUESTION 3: FINANCIAL LEVELS VS RATINGS & SUCCESS
+======================================================================
+
+RESULTS BY FINANCIAL LEVEL:
+                      Mean_Rating  Std_Rating    Mean_Gross  Median_Gross  \
+financial_level                                                             
+Low (<$15M)                  6.08        1.24  2.031641e+07     2940411.0   
+Medium ($15-50M)             6.28        1.02  7.894667e+07    54393687.0   
+High ($50-150M)              6.37        0.98  2.626534e+08   205440387.0   
+Blockbuster (>$150M)         6.95        0.81  7.020782e+08   650557307.5   
+
+                      Mean_ROI  Median_ROI  Count  
+financial_level                                    
+Low (<$15M)             389.96      -18.70   1011  
+Medium ($15-50M)        164.73       83.87    679  
+High ($50-150M)         192.30      139.93    351  
+Blockbuster (>$150M)    247.32      218.35    108  
+
+CORRELATION ANALYSIS:
+Budget vs Rating: r = 0.174
+Budget vs Revenue: r = 0.793
+Rating vs Revenue: r = 0.223
+
+KEY FINDINGS:
+Highest rated tier: Blockbuster (>$150M) (6.95)
+Highest grossing tier: Blockbuster (>$150M) ($702,078,161)
+Best ROI tier: Low (<$15M) (390.0%)
+
+STATISTICAL TEST (ANOVA):
+F-statistic = 23.256
+p-value = 0.0000
+Significant? Yes (p < 0.05)
+
+CONCLUSION:
+Budget positively correlates with ratings (r=0.174).
+Budget strongly correlates with revenue (r=0.793).
+However, best ROI comes from Low (<$15M) tier.
+
+RECOMMENDATION:
+Target Low (<$15M) budget tier for optimal returns.
+Expected rating: ~6.08
+Expected ROI: ~390.0%

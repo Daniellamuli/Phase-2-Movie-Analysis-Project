@@ -1,0 +1,50 @@
+  486  git status
+  487  git reset
+  488  git status
+  489  git add ../.gitignore ../data/cleanedData/tn_movie_budgets_cleaned.csv
+  490  git commit -m "Phase 1: Environment setup i.e. The Introduction for YE Studios, Business Understaning, Data Understanding and Data integration" 
+  491  git add "Naomi .ipynb"
+  492  git commit -m "Phase 2: Full Analysis - Intro, Business Understanding, and Data Cleaning" 
+  493  git add *.png *.txt 
+  494  git commit -m "Phase 3: Analysed the cleaned data as the Financial Analyst of the group and provided Visual Insights of my findings while ensuring to answer the business questions and provide insightful proper recommendations"
+  495  # Move from the root to a new folder
+  496  mkdir -p ../dashboards
+  497  mv ../Your_Workbook_Name.twb ../dashboards/
+  498  # Add and commit
+  499  git add ../dashboards/Your_Workbook_Name.twb
+  500  git commit -m "Final: Added Tableau workbook to dashboards folder" 
+  501  git add notebooks/"Naomi .ipynb"
+  502  ls
+  503  git add 'Naomi .ipynb'  
+  504   git stash 
+  505  git stash pop
+  506  git add "Naomi .ipynb"
+  507  git add ../YE_Studios_Financial_Analysis_Dashboard.twb 
+  508  git add tableau_movie_analysis.csv 
+  509  git commit -m "Final: Added my interactive link and a section on my otebook that showed how i set up my merged data for Tableau analysis and creation of an Interactive dashboard"
+  510  git pull origin main --rebase 
+  511  git pull origin master --rebase 
+  512  git checkout --ours .gitignore
+  513  git add .gitignore 
+  514  git checkout --ours ../.gitignore 
+  515  git add ../.gitignore 
+  516  git rebase --continue 
+  517  git push origin naomi-analysis --force 
+  518  code "Naomi .ipynb"
+  519  ls 
+  520  cd individual/
+  521  ls
+  522  code 'Naomi .ipynb'  
+  523  git pull origin naomi-analysis
+  524  ls -la data
+  525  ls -la data/
+  526  ls
+  527  cd ..
+  528  cd ..
+  529  ls
+  530  ls -la data/
+  531  git add data/analysisData/tableau_movie_analysis.csv 
+  532  git commit -m "Add Tableau analysis dataset"
+  533  git push origin naomi-analysis
+  534  history > full_bash_history.txt 
+  535  history 50 > git_workflow_steps.txt 

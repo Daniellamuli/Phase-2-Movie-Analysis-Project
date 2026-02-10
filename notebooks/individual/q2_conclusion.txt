@@ -1,0 +1,39 @@
+QUESTION 2: INDIE VS MAJOR STUDIOS
+======================================================================
+
+RESULTS:
+             Mean_Rating  Median_Rating  Std_Rating  Count    Mean_Gross  \
+studio_type                                                                
+Indie               6.46            6.5        0.96    836  1.333604e+08   
+Major               6.45            6.5        0.95    377  2.109477e+08   
+
+             Median_Gross  
+studio_type                
+Indie          48193760.5  
+Major         130673154.0  
+
+RATINGS:
+Indie average: 6.46
+Major average: 6.45
+Difference: 0.01 points
+
+REVENUE:
+Indie average: $133,360,386
+Major average: $210,947,700
+Difference: $77,587,314
+
+STATISTICAL TEST:
+t-statistic = 0.276
+p-value = 0.7823
+Cohen's d = 0.017
+Significant? No (p >= 0.05)
+
+CONCLUSION:
+Indie studios achieve higher ratings.
+Major studios generate higher box office revenue.
+This reveals a quality vs. revenue trade-off.
+
+RECOMMENDATION:
+For critical acclaim: Follow Indie studio approach
+For commercial success: Follow Major studio approach
+Hybrid strategy: Combine indie quality with major marketing
