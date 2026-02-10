@@ -181,17 +181,30 @@ Micro- and mid-budget films provide the strongest risk-adjusted returns when com
 
 ---
 
-### 📊 **Visual Insights (from Analysis)**
+### 📊 Visual Insights (from Analysis)
 
-Selected visuals below highlight the core findings of our analysis. Full interactive versions are available via Tableau dashboards.
+Selected visuals below highlight the core findings of our analysis.  
+Full interactive versions are available via Tableau dashboards.
 
+---
+
+#### 💰 ROI by Budget Tier
 ![ROI by Budget Tier](figures/roi_by_budget.png)
+
 *High ROI concentration in micro- and mid-budget films.*
 
+---
+
+#### 🌍 Domestic vs International Revenue by Genre
 ![Domestic vs International Revenue by Genre](figures/domestic_vs_foreign.png)
+
 *International markets consistently outperform domestic revenue across major genres.*
 
+---
+
+#### ⭐ Popularity vs Revenue
 ![Popularity vs Revenue](figures/popularity_vs_revenue.png)
+
 *Audience engagement shows a stronger relationship with revenue than critical ratings.*
 
 ---
@@ -201,7 +214,7 @@ Selected visuals below highlight the core findings of our analysis. Full interac
 For a deeper, interactive exploration of the data, view the Tableau dashboards below:
 
 - **Financial Strategy & Risk Management**  
-  👉 [View Tableau Dashboard](https://public.tableau.com/...)
+  👉 [View Tableau Dashboard](https://public.tableau.com/app/profile/naomi.opiyo/viz/YE_Studios_Financial_Analysis_Dashboard/Story1)
 
 - **Genre & Content Strategy**  
   👉 [View Tableau Dashboard](https://public.tableau.com/views/MovieAnalysisProject/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
@@ -210,4 +223,4 @@ For a deeper, interactive exploration of the data, view the Tableau dashboards b
   👉 [View Tableau Dashboard](https://public.tableau.com/views/MARKETINGDYNAMICS/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 - **Competitive Positioning & Seasonality**  
-  👉 [View Tableau Dashboard](https://public.tableau.com/...)
+  👉 [View Tableau Dashboard](https://public.tableau.com/views/CompetitivePositioningAnalysis/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
