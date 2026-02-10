@@ -201,7 +201,7 @@ Selected visuals below highlight the core findings of our analysis. Full interac
 For a deeper, interactive exploration of the data, view the Tableau dashboards below:
 
 - **Financial Strategy & Risk Management**  
-  👉 [View Tableau Dashboard](https://public.tableau.com/...)
+  👉 [View Tableau Dashboard](https://public.tableau.com/app/profile/naomi.opiyo/viz/YE_Studios_Financial_Analysis_Dashboard/Story1)
 
 - **Genre & Content Strategy**  
   👉 [View Tableau Dashboard](https://public.tableau.com/views/MovieAnalysisProject/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
@@ -210,4 +210,4 @@ For a deeper, interactive exploration of the data, view the Tableau dashboards b
   👉 [View Tableau Dashboard](https://public.tableau.com/views/MARKETINGDYNAMICS/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 - **Competitive Positioning & Seasonality**  
-  👉 [View Tableau Dashboard](https://public.tableau.com/...)
+  👉 [View Tableau Dashboard](https://public.tableau.com/views/CompetitivePositioningAnalysis/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
