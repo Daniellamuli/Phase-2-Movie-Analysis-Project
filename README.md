@@ -1,7 +1,7 @@
 # Phase-2-Movie-Analysis-Project
 Phase 2 Data Science Project: Movie Industry Analysis for New Studio
 <p align="center">
-  <img src="figures/ye-studios-logo.jfif" alt="YE Studios Logo" width="200">
+  <img src="figures/ye-studios-logo.png" alt="YE Studios Logo" width="200">
 </p>
 
 <h1 align="center">YE Studios: Data-Driven Film Analysis Project</h1>
