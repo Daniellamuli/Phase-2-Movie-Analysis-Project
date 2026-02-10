@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="figures/ye-studios-logo.jfif" alt="YE Studios Logo" width="200">
+  <img src="figures/ye-studios-logo.png" alt="YE Studios Logo" width="200">
 </p>
 
 <h1 align="center">YE Studios: Data-Driven Film Analysis Project</h1>
@@ -186,17 +186,30 @@ Micro- and mid-budget films provide the strongest risk-adjusted returns when com
 
 ---
 
-### 📊 **Visual Insights (from Analysis)**
+### 📊 Visual Insights (from Analysis)
 
-Selected visuals below highlight the core findings of our analysis. Full interactive versions are available via Tableau dashboards.
+Selected visuals below highlight the core findings of our analysis.  
+Full interactive versions are available via Tableau dashboards.
 
+---
+
+#### 💰 ROI by Budget Tier
 ![ROI by Budget Tier](figures/roi_by_budget.png)
+
 *High ROI concentration in micro- and mid-budget films.*
 
+---
+
+#### 🌍 Domestic vs International Revenue by Genre
 ![Domestic vs International Revenue by Genre](figures/domestic_vs_foreign.png)
+
 *International markets consistently outperform domestic revenue across major genres.*
 
+---
+
+#### ⭐ Popularity vs Revenue
 ![Popularity vs Revenue](figures/popularity_vs_revenue.png)
+
 *Audience engagement shows a stronger relationship with revenue than critical ratings.*
 
 ---
