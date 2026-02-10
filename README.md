@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="figures/ye-studios-logo.jfif" alt="YE Studios Logo" width="200">
+  <img src="figures/ye-studios-logo.png" alt="YE Studios Logo" width="200">
 </p>
 
 <h1 align="center">YE Studios: Data-Driven Film Analysis Project</h1>
