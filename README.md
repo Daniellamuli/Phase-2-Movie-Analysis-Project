@@ -89,6 +89,16 @@ Datasets were merged using **movie titles** as the common identifier to create a
 This integrated dataset allows for a **multidimensional analysis** of how genre, budget, runtime, ratings, and studio characteristics influence commercial success.
 
 ---
+## 🚀 How to Reproduce This Analysis
+
+To replicate our findings from the raw data to the final synthesis, please execute the notebooks in the following order:
+
+1. **Clean:** `notebooks/data_cleaning/data_cleaning.ipynb` — *Transforms raw datasets into the `cleanedData` CSVs used in all subsequent steps.*
+2. **Analyze:** Run the four specialized analysis notebooks in any order to see deep-dives into Financials, Genre, Market Dynamics, and Competition.
+*   **Note:** Each analysis notebook exports optimized datasets for visualization to the `data/analysisData/` folder. These files serve as the primary data sources for our **Tableau Dashboards**.
+3. **Synthesize:** `notebooks/final/final_notebook.ipynb` — *The final executive report that merges findings and performs the final statistical validations.*
+---
+
 ## Data Cleaning & Analysis
 
 All preprocessing and analysis work was conducted in Jupyter notebooks. You can access them directly below:
@@ -146,8 +156,6 @@ This project applies data-driven analysis to identify how **YE Studios** can sca
 
 ### 3\. Market Dynamics & Audience Engagement
 
-### 
-
 Popularity and marketing buzz often outweigh critical acclaim in predicting commercial success.
 
 *   **Popularity Drives Revenue:** Audience engagement scores show a significantly stronger correlation with revenue than critical ratings.
@@ -158,10 +166,9 @@ Popularity and marketing buzz often outweigh critical acclaim in predicting comm
     
    *   **Takeaway:** YE Studios should integrate marketing into the production pipeline from Day 1. Visibility and cultural presence are stronger predictors of success than critical acclaim alone.
     
+* * *
 
-### 4\. Competitive Positioning & Seasonality
-
-### 
+### 4\. Competitive Positioning & Seasonality 
 
 Strategic timing and global allocation are essential for outperforming established competitors.
 
